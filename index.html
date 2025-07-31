@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Orchid Cuisine – Order Delicious Meals</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #fff8f0;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(45deg, #ff6f61, #ff9472);
+      padding: 40px 20px;
+      text-align: center;
+      color: white;
+      font-size: 2.8rem;
+      font-weight: bold;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    nav {
+      background: #fff3e6;
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      padding: 14px 0;
+      font-weight: bold;
+    }
+
+    nav a {
+      color: #ff6f61;
+      text-decoration: none;
+      font-size: 1.1rem;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+    }
+
+    .product {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 6px 10px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+
+    .product img {
+      width: 100%;
+      border-radius: 10px;
+      height: 200px;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+
+    .product h3 {
+      color: #ff6f61;
+      margin: 10px 0;
+      font-size: 1.4rem;
+    }
+
+    .product p {
+      margin: 0;
+      font-size: 0.95rem;
+      color: #555;
+    }
+
+    .price {
+      font-weight: bold;
+      font-size: 1.1rem;
+      margin: 15px 0;
+      color: #222;
+    }
+
+    .order-btn {
+      background: #ff6f61;
+      color: white;
+      padding: 10px 16px;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .order-btn:hover {
+      background: #e25549;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 0.9rem;
+      color: #555;
+      background-color: #fff3e6;
+      margin-top: 40px;
+      line-height: 1.6;
+    }
+
+    footer a {
+      color: #ff6f61;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>🥧 Orchid Cuisine – Order Delicious Meals</header>
+
+  <nav>
+    <a href="#">Home</a>
+    
+  </nav>
+
+  <div class="container">
+    <div class="product">
+      <img src="https://source.unsplash.com/400x300/?jrice-dishes" alt="Rice dishes">
+      <h3>Signature coconut Rice & turkey</h3>
+      <p>Spicy Nigerian jollof rice served with juicy grilled Turkey.</p>
+      <div class="price">₦9,500</div>
+      <button class="order-btn">Order Now</button>
+      </div>
+
+    <div class="product">
+      <img src="https://source.unsplash.com/400x300/?Pasta" alt="Pasta Dishes">
+      <h3>Native pasta</h3>
+      <p>Native Pasta.</p>
+      <div class="price">₦9,200</div>
+      <button class="order-btn">Order Now</button>
+    </div>
+
+    <div class="product">
+      <img src="https://source.unsplash.com/400x300/?pounded-yam-soup" alt="soup dishes">
+      <h3>Pounded Yam & Egusi</h3>
+      <p>Soft pounded yam with richly seasoned egusi soup and assorted meat.</p>
+      <div class="price">₦9,000</div>
+      <button class="order-btn">Order Now</button>
+    </div>
+
+    <div class="product">
+      <img src="https://source.unsplash.com/400x300/?grilled-fish" alt="Grilled dishes">
+      <h3>grilled tilapia</h3>
+      <p>Well-spiced grilled tilapia fish with golden crispy fries.</p>
+      <div class="price">₦9,200</div>
+      <button class="order-btn">Order Now</button>
+    </div>
+
+    <div class="product">
+      <img src="https://source.unsplash.com/400x300/?smoothie" alt="Fruit Smoothie">
+      <h3>Fresh Fruit Smoothie</h3>
+      <p>Blended fresh fruits — no sugar added, pure health in a cup.</p>
+      <div class="price">₦4,200</div>
+      <button class="order-btn">Order Now</button>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Orchid Cuisine. All rights reserved.<br>
+    📞 Contact: <a href="tel:08108007486">08108007486</a><br>
+    📍 Delivery available in peninsula Garden estate lekki Epe expressway Lagos, Nigeria
+  </footer>
+
+</body>
+</html>
